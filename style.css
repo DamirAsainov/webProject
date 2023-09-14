@@ -1,0 +1,265 @@
+*{
+    margin: 0px;
+    font-family: Ubuntu;
+    color: aliceblue;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #ffa75f;
+}
+header{
+    position: fixed;
+    width: 100%;
+    background-color:  #27374D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+}
+.title-div{
+    display: flex;
+    align-items: center;
+}
+.main-logo{
+    width: 100px;
+    height: 100px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+}
+.nav-list{
+    font-size: 24px;
+    font-weight: 500;
+    min-width: 400px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+
+#empty-section{
+    height: 99px;
+    width: 100%;
+}
+
+
+.photo-section{
+    background-image: url("img/Component\ 1.png");
+    height: 387px;
+    font-size: 64px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+button{
+    color: #000;
+    border-style: none;
+    font-size: 32px;
+    font-weight: 700;
+    width: 226px;
+    height: 88px;
+    border-radius: 25px;
+    background: #FD841F;
+    margin-top: 20px;
+}
+button:hover{
+    background: #ffa75f;
+    color: aliceblue;
+}
+
+
+
+
+.cards-section{
+    background: #00010C;
+}
+.container-cards{
+    height: 658px;
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 64px;
+    font-weight: 700;
+}
+.card{
+    background-color: #70707071;
+    width: 384px;
+    height: 497px;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-delay: 0.2s;
+}
+.card:hover{
+    transform: scale3d(1.1, 1.1, 0.3);
+}
+.men{
+    background-image:url(img/men_milan.png) ;
+}
+.kid{
+    background-image:url(img/kid_milan.png);
+}
+.women{
+    background-image:url(img/women_milan.png);
+}
+
+
+.buy_section{
+    background-color: #526D82; 
+    font-size: 2em;
+}
+.container-buy{
+    height: 721px;
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+.kit-img{
+    width: 557px;
+    height: 620px;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+.all-buy{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 600px;
+}
+.size-button{
+    width: 110px;
+    height: 43px;
+    border-radius: 20px;
+    background: #D9D9D9;
+}
+input{
+    border-style: none;
+    color: #000;
+    font-size: 20px;
+    width: 512px;
+    height: 53px;
+    border-radius: 9px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cost{
+    font-size: 24px;
+    font-weight: 50;
+}
+#footer{
+    width: 100%;
+  
+    background: #252525;
+}
+.submit-button{
+    width: 173px;
+    height: 40px;
+    border-radius: 33px;
+    border: 3px solid #DDE6ED;
+    background: rgba(217, 217, 217, 0.00);
+    color: #DDE6ED;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.container-footer{
+    margin-left:auto;
+    margin-right:auto;
+    width: 1347px;
+    height: 285px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.useful-links-div{
+    display: flex;
+    flex-direction: column;
+}
+li{
+    margin: 0px;
+    list-style: none;
+}
+ul{
+    margin-top: 20px;
+}
+.location{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+iframe{
+    float: left;
+    margin: 10px;
+    margin-top: 0px;
+}
+main{
+    background: #9DB2BF; 
+    padding-left: 15%;
+    padding-right: 20%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 1.5em;
+}
+hr{
+    border-style: solid;
+    border-color: #000;
+}
+blockquote{
+    clear: right;
+}
+blockquote p{
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 40px;
+        margin-right: 40px;
+        color: black;
+}
+blockquote em{
+    color: #000;
+}
+main h1{
+    text-align: center;
+    margin: 40px ;
+}
+main h3{
+    margin: 20px;
+}
+main video{
+    float: right;
+}
+
+
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+td {
+    color: #000;
+    padding: 8px;
+    text-align: center;
+}
