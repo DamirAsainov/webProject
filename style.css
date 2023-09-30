@@ -3,8 +3,6 @@
     font-family: Ubuntu;
     color: aliceblue;
 }
-a{
-}
 .btn:hover{
     color: #ffa75f;
 }
@@ -232,6 +230,24 @@ td {
     padding: 8px;
     text-align: center;
 }
+
+.navbar-type .btn, label{
+    font-size: 24px;
+}
+main option{
+    color: #000;
+}
+main .container{
+    
+}
+
+
+
+
+
+
+
+
 
 @media (max-width: 1200px) {
     .nav-item{
