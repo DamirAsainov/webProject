@@ -66,22 +66,22 @@ button:hover{
 
 
 
-.cards-section{
+section + .cards-section{
     background: #00010C;
 }
 .container-cards{
     height: 100%;
     margin-left: auto;
     margin-right: auto;
-    font-size: 64px;
+    font-size: 1.5rem;
     font-weight: 700;
 }
-.card{
+.cards-section .card{
     transition-property: transform;
     transition-duration: 0.3s;
     transition-delay: 0.2s;
 }
-.card:hover{
+.cards-section .card:hover{
     transform: scale3d(1.1, 1.1, 0.3);
 }
 
@@ -237,9 +237,10 @@ td {
 main option{
     color: #000;
 }
-main .container{
-    
+main .carousel{
+    width: 600px;
 }
+
 
 
 
@@ -256,5 +257,26 @@ main .container{
     input{
         width: 200px;
     }
-    
+    .container .btn, p, label, .alert, option, td, th{
+        font-size: 2em;
+    }
+    .container .form-check-input{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-right: 30px;
+        width: 50px;
+        height: 50px;
+    }
+    .card-title, .text-start, .text-center,h1, h3, .about-kit{
+        font-size: 3rem;
+    }
+    .sign-in{
+        min-height: 90vh;
+    }
+    header .nav-link{
+        font-size: 32px;
+    }
+    header .icon{
+        width: 0px;
+    }
 }
